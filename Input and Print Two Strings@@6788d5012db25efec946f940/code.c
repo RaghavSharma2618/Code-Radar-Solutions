@@ -1,5 +1,5 @@
 #include <stdio.h>
-int  amin(){
+int  main(){
     char str1[100];
     char str2[100];
     scanf("%c", &str1);
