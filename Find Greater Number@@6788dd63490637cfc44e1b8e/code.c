@@ -8,7 +8,7 @@ int main(){
     
     }
     else{
-        ptintf("%d",b);
+        printf("%d",b);
     }
     
 }
