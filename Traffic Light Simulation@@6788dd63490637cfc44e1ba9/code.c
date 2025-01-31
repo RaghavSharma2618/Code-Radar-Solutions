@@ -2,7 +2,6 @@
 int main(){
     char a;
     scanf("%c", &a);
-    a>='A' && a<='Z';
     if(a=='R'){
         printf("Stop");
     }
