@@ -4,10 +4,10 @@ int main(){
     scanf("%c", &grade);
     switch(grade){
         case 'A':
-        printf("Excellent\n");
+        printf("Excellent");
         break;
         case 'B':
-        printf("Good\n");
+        printf("Good");
         break;
         case 'c':
         printf("Average");
