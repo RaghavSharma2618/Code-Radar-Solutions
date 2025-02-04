@@ -19,7 +19,7 @@ int main(){
             printf("Fail");
             break;
         case 'E':
-            printf("Invalid Grade");    
+            printf("Invalid grade");    
 
     }
     return 0;
