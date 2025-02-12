@@ -3,6 +3,7 @@ int main(){
     int a,num;
     scanf("%d", &a);
     for(int num==1;num<=10;num++){
-        print("%d",a, "x %d",num);
+        print("%d x %d = %d\n",a,num,a*num);
     }
+    return 0;
 }
