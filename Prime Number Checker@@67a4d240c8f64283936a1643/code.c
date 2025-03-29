@@ -7,7 +7,7 @@ int isPrime(){
             break;
         }
     }
-    if(count++){
+    if(count==2){
         printf("%d",1);
     }
     else{
