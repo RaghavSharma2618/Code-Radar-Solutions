@@ -6,12 +6,18 @@ int isPrime(){
             count++;
             break;
         }
-    }
-    if(count==2){
+        if(count==2){
         printf("%d\n",1);
     }
     else{
         printf("%d",0);
     }
+    }
+    // if(count==2){
+    //     printf("%d\n",1);
+    // }
+    // else{
+    //     printf("%d",0);
+    // }
 
 }
