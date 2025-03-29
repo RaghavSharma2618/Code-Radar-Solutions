@@ -1,23 +1,27 @@
-#include<stdio.h>
-int isPrime(int num){
-    int count=0;
-    scanf("%d", &num);
-    for(int i=1;i<=num;i++){
-        if(num%i==0){
-            count++;
-        }
-        // if(count==2){
-        //     return 1;
-        // }
-        // else{
-        //     return 0;
-        // }
-    }
+#include <stdio.h>
+#include <math.h>
 
-    if(count==2){
-        return 1;
+// Function to check if a number is prime
+int isPrime(int num) {
+    if (num < 2) return 0; // 0 and 1 are not prime
+
+    for (int i = 2; i <= sqrt(num); i++) { // Check divisibility only up to sqrt(num)
+        if (num % i == 0) {
+            return 0; // Not Prime
+        }
     }
-    else{
-        return 0;
-    }
+    return 1; // Prime
 }
+
+// int main() {
+//     int t, num;
+//     scanf("%d", &t); // Read number of test cases
+
+//     while (t--) {
+//         scanf("%d", &num); // Read each number
+//         printf("%d\n", isPrime(num)); // Print result
+//     }
+
+//     return 0;
+// }
+
